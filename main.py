@@ -27,3 +27,9 @@ preview_out = [
     simpleobsws.Request('SetCurrentPreviewScene', {'sceneName': 'ChromaKey'})
 ]
 loop.run_until_complete(make_requests(preview_out))
+time.sleep(1)
+movies_sync = [
+    simpleobsws.Request('TriggerMediaInputAction', {'inputName': 'Text', 'mediaAction': 'OBS_WEBSOCKET_MEDIA_INPUT_ACTION_RESTART'}),
+    simpleobsws.Request('TriggerMediaInputAction', {'inputName': 'Movie', 'mediaAction': 'OBS_WEBSOCKET_MEDIA_INPUT_ACTION_RESTART'})
+]
+loop.run_until_complete(make_requests(movies_sync))

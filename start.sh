@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-sleep 20
+sleep 15
 
 open -a "OBS"
 
-sleep 10
+sleep 30
 
 cd ~/Desktop/obs-control
 pwd
