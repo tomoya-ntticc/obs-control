@@ -18,14 +18,18 @@
 
 ![SystemDiagram](https://github.com/tomoya-ntticc/obs-control/assets/94507251/17d21309-7441-4be7-aa94-b821e37f03c3)
 
-## Setup
+## Setup OBS Studio
 
-### OBS WebSocket Server
+### WebSocket Server
 
-Turn ON `Enable WebSocket server` of `WebScoket Server Settings` of `Tools`
+Turn ON `Enable WebSocket server` of `WebScoket Server Settings` of `Tools` .
 ![スクリーンショット 2024-01-10 16 27 23](https://github.com/tomoya-ntticc/obs-control/assets/94507251/61e7822d-f76d-4ed3-9b07-d2fff31d779e)
 
-### OBS Scenes and Sources
+### Studio Mode
+
+Turn ON `Stduio Mode` of `Controls` .
+
+### Scenes and Sources
 
 Set Scenes name `Moniter` and `ChromaKey` .  
 Set Sources name `Text` and `Movie` to sync movies.
@@ -33,10 +37,6 @@ Set Sources name `Text` and `Movie` to sync movies.
 
 Add Filters.
 ![スクリーンショット 2024-01-10 12 31 43](https://github.com/tomoya-ntticc/obs-control/assets/94507251/2e2208f6-c517-4b10-9782-9a429bb41459)
-
-### OBS Studio Mode
-
-Turn ON `Stduio Mode` of `Controls`
 
 ## Additional Documentation and Acknowledgments
 
