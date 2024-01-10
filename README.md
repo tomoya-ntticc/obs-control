@@ -34,6 +34,9 @@ Set Sources name `Text` and `Movie` to sync movies.
 Add Filters.
 ![スクリーンショット 2024-01-10 12 31 43](https://github.com/tomoya-ntticc/obs-control/assets/94507251/2e2208f6-c517-4b10-9782-9a429bb41459)
 
+### OBS Studio Mode
+
+Turn ON `Stduio Mode` of `Controls`
 
 ## Additional Documentation and Acknowledgments
 
